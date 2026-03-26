@@ -1,0 +1,21 @@
+:root {
+  --bg-primary: #050912;
+  --bg-secondary: #0a0f1e;
+  --bg-card: #0d1426;
+  --accent: #00d4ff;
+  --green: #00ff9d;
+  --red: #ff3b5c;
+  --text-primary: #e8eeff;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  margin: 0;
+}
+
+.app-container { display: flex; flex-direction: column; min-height: 100vh; }
+.topbar { display: flex; justify-content: space-between; padding: 1rem; background: var(--bg-secondary); border-bottom: 1px solid #1a2540; }
+/* ... Rest deines Designs ... */
